@@ -2,6 +2,10 @@ import "./App.css";
 import MyTitle from "./components/MyTitle";
 import PokemonCard from "./components/PokemonCard";
 
+interface pokemon {
+  name: string;
+  imgSrc?: string;
+}
 const pokemonList = [
   {
     name: "bulbasaur",
